@@ -803,3 +803,11 @@
         }
     }
 }
+.hero-btn {
+    background-color: #FF006A;
+    display: flex;
+    justify-content: center;
+    @include desktops {
+        justify-content: flex-start;
+    }
+}

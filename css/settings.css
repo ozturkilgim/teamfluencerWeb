@@ -9,6 +9,35 @@
           box-sizing: border-box;
 }
 
+.btn--pink {
+  color: #ffffff;
+  background-color: #FF006A;
+}
+
+.btn--pink:hover {
+  color: #fff;
+  background-color: #ff529a;
+}
+
+.btn--pink.btn-hover-shine {
+  background-color: #fff;
+}
+
+.btn--secondary {
+  color: #FF006A;
+}
+
+.btn--secondary:hover {
+  color: #FF006A;
+  background-color: #fff5f9;
+  
+}
+
+.btn--secondary.btn-hover-shine {
+  background-color: #fff;
+}
+
+
 body {
   font-family: "Inter",sans-serif;
   font-size: 14px;
