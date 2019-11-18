@@ -548,3 +548,17 @@ input[type="number"] {
           transform: rotate(45deg);
 }
 /*# sourceMappingURL=settings.css.map */
+
+.spacing-bottom {
+  padding-bottom: 70px;
+}
+
+@media (min-width: 768px) {
+  .spacing-bottom {
+    padding-bottom: 140px;
+  }
+}
+.section-devider {
+  border: 1px solid #e5e5e5;
+  display: block;
+}

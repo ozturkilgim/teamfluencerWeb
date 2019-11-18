@@ -81,3 +81,156 @@
     font-size: 70px;
   }
 }
+
+.aurthor-image {
+  position: relative;
+}
+
+.aurthor-image img {
+  width: 100%;
+}
+
+.aurthor-image:after {
+  position: absolute;
+  content: "";
+  top: 10%;
+  left: -40px;
+  height: 100%;
+  width: 123%;
+  z-index: -1;
+  background-image: url(../image/aurthor-bg-shape.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+@media (min-width: 768px) {
+  .aurthor-image:after {
+    left: -23px;
+  }
+}
+
+@media (min-width: 992px) {
+  .aurthor-image:after {
+    left: -40px;
+  }
+}
+.aurthor-section {
+  padding-top: 70px;
+}
+
+@media (min-width: 768px) {
+  .aurthor-section {
+    padding-top: 140px;
+  }
+
+.aurthor-content {
+  margin-top: 45px;
+}
+
+@media (min-width: 768px) {
+  .aurthor-content {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .aurthor-content {
+    margin-top: 60px;
+  }
+}
+
+.aurthor-content .account {
+  color: #4ebe86;
+  font-family: "Karla", sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  letter-spacing: -0.4px;
+  line-height: 36px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 992px) {
+  .aurthor-content .account {
+    margin-bottom: 35px;
+  }
+}
+
+.aurthor-content h2 {
+  color: #1f1f1f;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 37px;
+  font-weight: 700;
+  letter-spacing: -3.02px;
+  line-height: 45px;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 480px) {
+  .aurthor-content h2 {
+    letter-spacing: -2.02px;
+    font-size: 45px;
+    line-height: 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  .aurthor-content h2 {
+    letter-spacing: -1.02px;
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 992px) {
+  .aurthor-content h2 {
+    margin-bottom: 27px;
+    font-size: 48px;
+    letter-spacing: -2.02px;
+    line-height: 54px;
+  }
+}
+
+.aurthor-content p {
+  color: #666666;
+  font-family: "Karla", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: -0.4px;
+  line-height: 25px;
+}
+
+@media (min-width: 480px) {
+  .aurthor-content p {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
+
+@media (min-width: 576px) {
+  .aurthor-content p {
+    padding-right: 56px;
+  }
+}
+
+@media (min-width: 768px) {
+  .aurthor-content p {
+    font-size: 17px;
+    line-height: 25px;
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .aurthor-content p {
+    font-size: 21px;
+    line-height: 36px;
+    padding-right: 17px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .aurthor-content p {
+    padding-right: 107px;
+  }
+}
