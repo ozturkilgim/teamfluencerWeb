@@ -23,6 +23,20 @@
   background-color: #fff;
 }
 
+.btn--mor {
+  color: #ffffff;
+  background-color: #782DFF;
+}
+
+.btn--mor:hover {
+  color: #ffffff;
+  background-color: #782DFF;
+}
+
+.btn--mor.btn-hover-shine {
+  background-color: #fff;
+}
+
 .btn--secondary {
   color: #FF006A;
 }

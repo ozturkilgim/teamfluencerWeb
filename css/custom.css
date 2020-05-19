@@ -82,6 +82,19 @@
   }
 }
 
+/*/////////////////////////////// 
+           Aurthor
+///////////////////////////////*/
+.aurthor-section {
+  padding-top: 70px;
+}
+
+@media (min-width: 768px) {
+  .aurthor-section {
+    padding-top: 140px;
+  }
+}
+
 .aurthor-image {
   position: relative;
 }
@@ -114,14 +127,6 @@
     left: -40px;
   }
 }
-.aurthor-section {
-  padding-top: 70px;
-}
-
-@media (min-width: 768px) {
-  .aurthor-section {
-    padding-top: 140px;
-  }
 
 .aurthor-content {
   margin-top: 45px;
